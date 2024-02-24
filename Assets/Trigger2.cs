@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Trigger : MonoBehaviour
+public class Trigger2 : MonoBehaviour
 {
-    public Text player1;
-    public GameObject playerOneWin;
+    public Text player2;
+    public GameObject playerTwoWin;
     private int score;
  
  public int winScore =15;
@@ -15,8 +15,8 @@ public class Trigger : MonoBehaviour
     void Start () 
     {
    
-        player1.text = "";
-        playerOneWin.SetActive(false);
+        player2.text = "";
+        playerTwoWin.SetActive(false);
  
     }
  
@@ -25,11 +25,11 @@ public class Trigger : MonoBehaviour
     void Update ()
     {
    
-        player1.text = "" + score;
+        player2.text = "" + score;
 
         if (score >= winScore)
         {
-            playerOneWin.SetActive(true); 
+            playerTwoWin.SetActive(true); 
         }
  
     }
