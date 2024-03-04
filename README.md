@@ -14,7 +14,7 @@ scores put into the corners and keep track of player one and two
 <br>
 Shows win screen after either player gets 15 points
 
-<br>
+<br><br>
 Update 2
 <br>
 moved all the trigger code into one script , no lobger in two seperate ones for the two players
