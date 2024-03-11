@@ -13,3 +13,18 @@ Update 1
 scores put into the corners and keep track of player one and two
 <br>
 Shows win screen after either player gets 15 points
+
+<br><br>
+Update 2
+<br>
+moved all the trigger code into one script , no lobger in two seperate ones for the two players
+<br> 
+added blocks that the players can knock over onto each other
+<br>
+added collectible items, potatoes and sprites (the soda)
+<br>
+added a shared inventory to the game along with equipping
+<br>
+the items both add 5 points to the score
+<br>
+new rule: only player 1 can pick up and use potatos and player two can only pick up and use Sprite
