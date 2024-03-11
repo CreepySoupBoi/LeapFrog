@@ -13,9 +13,6 @@ public class Trigger : MonoBehaviour
     public int score2;
      public GameObject player1; // Player 1 game object
     public GameObject player2; // Player 2 game object
-    private BoxCollider player1Collider; // Player 1 box collider
-    private BoxCollider player2Collider; // Player 2 box collider
- 
  public int winScore =15;
  
     // Use this for initialization
@@ -26,9 +23,6 @@ public class Trigger : MonoBehaviour
         player2Text.text = "";
         playerOneWin.SetActive(false);
         playerTwoWin.SetActive(false);
-        player1Collider = player1.GetComponent<BoxCollider>();
-        player2Collider = player2.GetComponent<BoxCollider>();
- 
     }
  
  
@@ -49,20 +43,6 @@ public class Trigger : MonoBehaviour
         }
  
     }
- 
- 
-    void OnTriggerEnter(Collider coll) {
- 
-        if (coll == player1Collider)
-        {
-            score1 = score1 + 1;
-        }
-        else if (coll == player2Collider)
-        {
-            score2 = score2 + 1;
-        }
- 
-    }
- 
- 
 }
+ 
+   

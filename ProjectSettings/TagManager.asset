@@ -6,11 +6,12 @@ TagManager:
   tags:
   - box2
   - box1
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
