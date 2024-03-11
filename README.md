@@ -40,3 +40,5 @@ have to get three items (5 points per item, first one to 15 points)
 players now move using wasd or ijkl and jump using q or u
 <br> 
 if players pick up an item thats not theirs the other player can still use it, so beware not to pick up your opponents items because they can use them still!
+<br>
+updated movement script to only use a ridgid body and not the player controller.
